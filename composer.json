@@ -1,0 +1,13 @@
+{
+  "autoload": {
+    "files": [
+      "src/helpers.php"
+    ],
+    "psr-4": {
+      "":"src",
+      "ImageManipulation\\": "src/ImageManipulation",
+      "ImageManipulation\\Executions\\": "src/ImageManipulation/Executions",
+      "ImageManipulation\\Exceptions\\": "src/ImageManipulation/Exceptions"
+    }
+  }
+}
